@@ -1,0 +1,329 @@
+.face{
+    position: relative;
+    height: 193px;
+    background: url(../img/frduser.png) repeat-x 0 0;
+}
+
+.tuxiang{
+    position: absolute;
+    top: 38px;
+    left: 30px;
+    width: 70px;
+    height: 70px;
+}
+.tuxiang img{
+    display: block;
+    width: 62px;
+    height: 62px;
+    padding: 2px;
+    background: #ffffff;
+    border: 1px solid #dadada;
+}
+.face h5{
+    font-size: 14px;
+   position: absolute;
+    top: 40px;
+    left: 112px;
+}
+.coo:after{
+     clear: both;
+     content: '.';
+     display: block;
+     height: 0;
+     visibility: hidden;
+ }
+.state{
+    position: absolute;
+    top: 134px;;
+    left: 13px;
+    overflow: hidden;
+}
+.state li{
+    display: inline;
+    float: left;
+    margin: 0 2px 0 -2px;
+    border-left: 1px solid #c2c2c2;
+}
+.state li a{
+    font-size: 12px;
+    display: block;
+    padding: 0 20px;
+    color: #666;
+}
+.state li a em{
+    display: block;
+    padding: 0 0 9px;
+    font-size: 20px;
+    line-height: 20px;
+    font-family: Arial;
+    font-style: normal;
+    text-align: left;
+}
+.state li a i{
+    display: block;
+    padding: 0 0 0 2px;
+    font-style: normal;
+    text-align: left;
+    font-size: inherit;
+
+}
+.m-time{
+    position: relative;
+    zoom:1;
+    text-shadow: none;
+}
+.m-time ul{
+    position: relative;
+    zoom: 1;
+}
+ .itm{
+
+    position: relative;
+    padding: 20px 0;
+    border-bottom: 1px solid #e8e8e9;
+    list-style: none;
+     height: 335px;
+}
+.gface{
+    position: absolute;
+    top:20px;
+    left: 0;
+    width: 54px;
+}
+.gface a{
+    float: left;
+    zoom: 1;
+    width: 45px;
+    height: 45px;
+    color: #333;
+}
+.gface a img{
+    display: block;
+    width: 100%;
+}
+.gcnt{
+    position: absolute;
+    zoom: 1;
+    margin-left: 55px;
+    padding-top: 4px;
+}
+.dcnc{
+    font-size: 14px;
+    position: relative;
+    zoom: 1;
+}
+.dcnc a{
+    color: #0c73c2;
+    text-decoration: none;
+}
+.dcnc sup{
+    width: 12px;
+    height: 13px;
+    background: url(../img/icon.png) no-repeat -65px -840px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    margin: -3px 0 0 1px;
+}
+.dcnc span{
+    margin-left: 5px;
+    color: #666666;
+}
+.time{
+    margin-top: 7px;
+}
+.time a{
+    color: #999;
+}
+.d-name{
+    margin-top: 10px;
+    line-height: 24px;
+    font-size: 14px;
+    white-space: normal;
+}
+.d-name a{
+    color: #0c73c2;
+}
+.d-mv1{
+    display: block;
+    position: relative;
+    margin: 4px 0 5px;
+}
+.d-mv2{
+    width: 338px;
+    height: 189px;
+    position: relative;
+    zoom: 1;
+}
+.d-mv3{
+    z-index: 10;
+    left: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    box-sizing: border-box;
+    color: #fff;
+    background: rgba(0, 0, 0, .1);
+    position: absolute;
+}
+.d-tit{
+    width: 100%;
+    box-sizing: border-box;
+    font-size: 12px;
+    line-height: 15px;
+    padding: 10px;
+    height: 100px;
+    background: url(../img/frd_cover_mask.png) repeat-x 0 -184px;
+    display: inline-block;
+    vertical-align: top;
+    color: #ffffff;
+}
+.d-tit p{
+    max-height: 30px;
+    overflow: hidden;
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+}
+.d-tit .h4{
+    color: rgba(255, 255, 255, 0.5);
+}
+.d-bot{
+    position: absolute;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    top: 135px;
+    padding: 33px 10px 10px;
+    height: 55px;
+    line-height: 10px;
+    font-size: 14px;
+    background: url(../img/frd_cover_mask.png) repeat-x 0  -285px;
+    display: inline-block;
+    vertical-align: top;
+}
+.f-fl{
+    float: left;
+    line-height: 10px;
+    font-size: 14px;
+    color: #ffffff;
+
+}
+.d-sta{
+    margin-right: 4px;
+    width: 8px;
+    height: 10px;
+    background: url(../img/frd_dyn_sprite.png) no-repeat -50px -510px;
+    display: inline-block;
+    vertical-align: top;
+    font-style: normal;
+    text-align: left;
+    font-size: inherit;
+    line-height: 10px;
+}
+.f-fr{
+    float: right;
+}
+.f-fr i{
+    margin-right: 4px;
+    width: 9px;
+    height: 10px;
+    background: url(../img/frd_dyn_sprite.png) no-repeat -50px -530px;
+    display: inline-block;
+    vertical-align: top;
+    font-style: normal;
+    text-align: left;
+    font-size: inherit;
+    line-height: 10px;
+}
+ .d-bgst{
+     position: absolute;
+     top:50%;
+     left: 50%;
+     margin: -20px 0 0 -20px;
+     opacity:0.8;
+     width: 40px;
+     height: 40px;
+     background: url(../img/frd_dyn_sprite.png) no-repeat 0 -510px;
+     display: inline-block;
+     vertical-align: top;
+     font-style: normal;
+     text-align: left;
+     font-size: inherit;
+}
+ .meimei{
+     display: block;
+     width: 100%;
+     height: 100%;
+     border: 0;
+ }
+ .d-mv1:after,.itm:after{
+
+     clear: both;
+     content: '.';
+     display: block;
+     height: 0;
+     visibility: hidden;
+ }
+.ooc{
+    float: left;
+    width: 100%;
+    margin-right: -300px;
+}
+.dd-bott{
+    margin: 18px 0 -2px;
+    text-align: right;
+    line-height: normal;
+    width : 100%;
+}
+.db-fl{
+    float: left;
+    color: #999999;
+}
+.door{
+    position: relative;
+    right: -160px;
+}
+.door a{
+    color: #0c73c2 !important;
+}
+.line{
+    color: #c7c7c7;
+    margin: 0 10px 0 12px;
+}
+.door i{
+    margin: 0 3px 0 0;
+    width: 14px;
+    height: 14px;
+    background: url(../img/frd_dyn_sprite.png) no-repeat 0 -20px;
+    display:inline-block;
+    vertical-align: top;
+}
+.s-tit,.retui,.s-list{
+    background:none !important;
+}
+.s-tit1{
+    padding: 20px 30px;
+}
+.fff-c{
+    color: #9b9b9b;
+}
+.btns .guanzhu{
+    position: absolute;
+    top: 50%;
+    right: 0;
+    margin-top: -11px;
+    width: 52px;
+    height: 22px;
+    background: url(../img/button.png) no-repeat 0 -96px;
+    display: inline-block;
+    float: right;
+}
+.guanzhu i{
+    display: inline-block;
+    line-height: 22px;
+    padding-left: 20px;
+    font-size: 12px;
+    color: #515151;
+    overflow: hidden;
+    font-weight: normal;
+}

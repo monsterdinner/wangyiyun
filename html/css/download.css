@@ -1,0 +1,202 @@
+.dow{
+    height: 483px;
+    background: url(../img/bg.jpg) no-repeat center 0;
+    box-sizing: content-box;
+}
+.dow:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.d-banner{
+    height: 483px;
+}
+.d-con{
+    width: 982px;
+    margin: 0 auto;
+    position: relative;
+    zoom: 1;
+}
+.d-lt{
+    float: left;
+}
+.d-lt1{
+    width: 545px;
+    height: 465px;
+    margin: 17px 0 0 35px;
+}
+.d-con .ji{
+    display: inline-block;
+    width: 545px;
+    height: 465px;
+    background: url(../img/banner-pc.png) no-repeat 0 0;
+}
+.d-dncnt{
+    height: 437px;
+    border-bottom: 1px solid #e3e3e3;
+}
+.d-one{
+    background: #fff;
+}
+.d-two{
+    background:#f8f8f8;
+}
+.d-rap{
+    padding-top: 120px;
+    width: 982px;
+    margin: 0 auto;
+}
+.d-rap:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.lt{
+    float: left;
+    margin-left: 30px;
+}
+.lt h3{
+    font-size: 40px;
+    font-weight: normal;
+    padding: 45px 0 5px 0;
+}
+.lt p{
+    font-size: 16px;
+    color: #666;
+    line-height: 24px;
+}
+.dd{
+    position: absolute;
+    left: 38px;
+    top: 460px;
+    bottom: 10px;
+    width: 55px;
+    text-align: center;
+}
+.dd-j{
+    background: url(../img/sprite.png) no-repeat -113px -102px;
+    display: inline-block;
+    width: 9px;
+    height: 9px;
+    margin-right: 5px;
+}
+.d-dll{
+    width: 380px;
+    margin: 194px -8px 0 0;
+    float: left;
+}
+.dl-x{
+    float: left;
+    display: block;
+    width: 170px;
+    height: 40px;
+    margin-bottom: 14px;
+    margin-left: 20px;
+    background: url(../img/down_btn.png)  repeat-x 0 0;
+    color: #ffffff;
+    font-size: 15px;
+    line-height: 40px;
+}
+.dl-x:hover{
+    background-position: 0 -50px;
+    text-decoration: none;
+}
+.dl-x:hover{
+    color: #fff;
+}
+.dl-x i{
+    float: left;
+    width: 22px;
+    height: 40px;
+    margin: 0 12px;
+    background: url(../img/down_btn8.png) no-repeat -60px -100px;
+}
+.dl-x .an{
+    float: left;
+}
+.dl-x .bb{
+    float: right;
+    padding-right: 15px;
+    font-size: 12px;
+    color: #fafcfc;
+    letter-spacing: 1px;
+    opacity: .66;
+}
+.pclog{
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.pclog a{
+    color: #e6e8ec;
+    background: url(../img/sprite.png) no-repeat 0 9999px;
+}
+.pgen em{
+    display: inline-block;
+    width: 5px;
+    height: 6px;
+    margin: 0 5px 2px 0;
+    background: url(../img/sprite.png) no-repeat -94px -87px;
+}
+.rt{
+    margin-right: 57px;
+    float: right;
+}
+.d-rap1 {
+    text-align: center;
+    width: 1068px;
+    margin: 0 auto;
+}
+.d-rap1 h3{
+    font-size: 26px;
+    padding: 45px 0 5px 0;
+    font-weight: normal;
+}
+
+.d-rap1 p{
+    color: #999;
+
+
+}
+
+.downll{
+    width: 124px;
+    padding-left: 0;
+    margin: 42px 0 0 0;
+    float: left;
+    box-sizing: content-box;
+}
+.downll img{
+    margin-top: 8px;
+}
+.d-rap1:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.pcpc{
+    width: 105px;
+    height: 23px;
+    padding: 8px 0 0 18px;
+    background: url(../img/sprite.png) no-repeat 0 -464px;
+    display: block;
+    margin: 6px auto 0;
+    color: #fff;
+}
+.n-dcode{
+    position: fixed;
+    right: 22px;
+    top: 295px;
+    background: #ffffff;
+    box-shadow: 0 0 4px rgba(0,0,0,.5);
+    opacity: 0.75;
+}
+.n-dcode p{
+    text-align: center;
+    padding-bottom: 12px;
+}

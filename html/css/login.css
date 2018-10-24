@@ -1,0 +1,248 @@
+.login{
+    position: absolute;
+    top: 213px;
+    left: 455px;
+    z-index: 9888;
+    width: 530px;
+    border-radius: 4px;
+    box-shadow: 0 5px 15px rgba(0,0,0,0);
+    background: #fff;
+    border: none;
+}
+.lo-head{
+    position: relative;
+    z-index: 10;
+    border-bottom: 1px solid #191919;
+    border-radius: 4px 4px 0 0;
+    background: #2d2d2d;
+}
+.lo-head>div{
+    padding:0 45px 0 18px;
+    margin: 0;
+    height: 38px;
+    line-height: 38px;
+    font-weight: bold;
+    font-size: 14px;
+    color: #ffffff;
+    background-position: 50% 0;
+    text-align: left;
+    user-select: none;
+    cursor: move;
+}
+.f-thide{
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    word-wrap: normal;
+}
+.loz-con{
+    padding: 0;
+    border: 1px solid #878787;
+    border-width: 0 1px 1px;
+    border-radius: 0 4px 4px;
+    background: #fff;
+
+}
+.lo-con{
+    padding: 0;
+}
+.lo-inp{
+    padding: 30px 0 43px;
+    width: 220px;
+    margin: 0 auto;
+}
+.lo-pho{
+    position: relative;
+    height: 30px;
+    margin: 0;
+    border: 1px solid #cdcdcd;
+    border-radius: 2px;
+    z-index: 10;
+}
+.lo-nub{
+    position: relative;
+    display: block;
+    height: 30px;
+    float: left;
+    line-height: 30px;
+    padding: 0 18px 0 5px;
+    border-right: 1px solid #cdcdcd;
+    text-decoration: none;
+    font-size: 12px;
+}
+.textwrep,.textwrep1{
+    overflow: hidden;
+}
+
+.lo-pho input{
+    width: 206px;
+    padding: 5px 8px 0;
+    height: 20px;
+    line-height: 20px;
+    border: none;
+}
+.lo-sp{
+    position: absolute;
+    top: 14px;
+    right: 7px;
+    width: 7px;
+    height: 4px;
+    background: url(../img/icon2.png) no-repeat -260px -450px;
+    display: inline-block;
+    overflow: hidden;
+    vertical-align: middle;
+    line-height: 30px;
+}
+body, textarea, select, input, button {
+    font-size: 12px;
+    color: #333;
+    font-family: Arial, Helvetica, sans-serif;
+    -webkit-text-size-adjust: none;
+}
+.textwrep1{
+    margin-top: 10px;
+}
+.textwrep1 input{
+    float: left;
+    left: 0;
+    margin-top: 3px;
+}
+.textwrep1 a:last-child{
+    float: right;
+    right: 0;
+    top: 0;
+}
+.den,.zhz{
+    margin-top: 20px;
+}
+.zhz a{
+    background: #ee0000 !important;
+
+}
+.den a,.zhz a{
+    width: 220px;
+    height: 31px;
+    color: #ffffff;
+    background: #285DB4;
+    border: 0;
+    display: block;
+    text-decoration: none;
+    text-align: center;
+    line-height: 32px;
+    border-radius: 2px;
+}
+.lo-foot{
+    padding: 0 19px;
+    height: 48px;
+    border-top: 1px solid #c6c6c6;
+    border-radius: 0 0 4px 4px;
+    line-height: 48px;
+    background-color: #f7f7f7;
+}
+.lo-foot:after{
+    clear: both;
+    content:".";
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.lo-foot a{
+    float: right;
+    text-decoration: none;
+    color: #999;
+}
+.lo-foot #qit{
+    float: left;
+    color: #0c72c3;
+}
+.lo-x{
+    position: absolute;
+    z-index: 20;
+    top: 16px;
+    right: 20px;
+    width: 10px;
+    overflow: hidden;
+    text-indent: -9999px;
+    cursor: pointer;
+    background: url(../img/layer.png) no-repeat 0 -95px;
+    line-height: 20px;
+}
+.m-mask{
+    z-index: 1001;
+    position: fixed;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background-image: url(../img/下载.gif);
+}
+
+body {
+    *zoom: 1;
+    min-width: 982px;
+    background: #f5f5f5;
+}
+.zcnt{
+    padding: 0;
+    border: 1px solid #878787;
+    border-width: 0 1px 1px;
+    border-radius: 0 0 4px 4px;
+    background: #fff;
+
+}
+.lyct{
+    padding: 0;
+}
+.ncnt{
+    padding: 40px 0 39px;
+}
+.ncnt:after {
+    clear: both;
+    content: '.';
+    display: block;
+    height: 0;
+    visibility: hidden;
+}
+.lcn-lt{
+    float: left;
+    width: 224px;
+    padding: 0 35px 3px 40px;
+    border-right: 1px dotted #ccc;
+    box-sizing: content-box;
+}
+.cim{
+    background: url(../img/platform.png)no-repeat 13px 0;
+    height: 120px;
+    width: 224px;
+}
+.lcn-rt{
+    float: left;
+    padding: 3px 0 3px 39px;
+    margin-top: -15px;
+}
+.lcn-rt ul li{
+    margin-top: 15px;
+    list-style: none;
+}
+.lcn-rt ul li a{
+    font-size: 12px;
+    color: #333;
+    line-height: 38px;
+    
+
+}
+.wx{
+    margin-right: 14px;
+    background: url(../img/logo.png) no-repeat -150px -670px;
+    width: 38px;
+    height: 38px;
+    display: inline-block;
+    vertical-align: middle;
+}
+
+
+
+
+
